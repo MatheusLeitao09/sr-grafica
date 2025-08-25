@@ -1,0 +1,219 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SR GRÁFICA - Soluções em Impressão</title>
+    <style>
+        /* Estilos CSS básicos para a estrutura. Você pode mover isso para um arquivo .css depois. */
+        body {
+            font-family: 'Helvetica Neue', Arial, sans-serif;
+            margin: 0;
+            line-height: 1.6;
+            color: #333;
+            background-color: #f4f4f4;
+        }
+        header {
+            background: #2c3e50;
+            color: white;
+            padding: 1rem 0;
+            text-align: center;
+        }
+        header h1 {
+            margin: 0;
+            font-size: 2.8rem;
+            text-transform: uppercase;
+            letter-spacing: 2px;
+        }
+        nav ul {
+            padding: 0;
+            list-style: none;
+            display: flex;
+            justify-content: center;
+            gap: 30px;
+            margin-top: 10px;
+        }
+        nav a {
+            color: white;
+            text-decoration: none;
+            font-weight: bold;
+            text-transform: uppercase;
+            font-size: 1rem;
+            transition: color 0.3s ease;
+        }
+        nav a:hover {
+            color: #1abc9c;
+        }
+        .container {
+            width: 85%;
+            margin: auto;
+            overflow: hidden;
+            padding: 20px 0;
+        }
+        .section {
+            padding: 60px 0;
+            background: white;
+            margin-bottom: 20px;
+            border-radius: 8px;
+            box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+        }
+        h2 {
+            color: #2c3e50;
+            text-align: center;
+            margin-bottom: 30px;
+            font-size: 2rem;
+            text-transform: uppercase;
+            letter-spacing: 1px;
+        }
+        p {
+            text-align: center;
+            font-size: 1.1rem;
+            max-width: 800px;
+            margin: 0 auto 20px auto;
+        }
+        .services-list {
+            display: flex;
+            justify-content: center;
+            flex-wrap: wrap;
+            gap: 20px;
+            margin-top: 30px;
+        }
+        .service-item {
+            background-color: #ecf0f1;
+            padding: 20px;
+            border-radius: 6px;
+            width: calc(33% - 20px);
+            text-align: center;
+        }
+        .service-item h3 {
+            color: #2c3e50;
+        }
+        .contact-form {
+            max-width: 600px;
+            margin: auto;
+            padding: 20px;
+            background-color: #ecf0f1;
+            border-radius: 8px;
+        }
+        .contact-form label {
+            display: block;
+            margin-bottom: 8px;
+            font-weight: bold;
+        }
+        .contact-form input, .contact-form textarea {
+            width: 100%;
+            padding: 10px;
+            margin-bottom: 20px;
+            border: 1px solid #ccc;
+            border-radius: 4px;
+        }
+        .contact-form button {
+            display: block;
+            width: 100%;
+            padding: 12px;
+            background-color: #1abc9c;
+            color: white;
+            border: none;
+            border-radius: 4px;
+            font-size: 1.1rem;
+            cursor: pointer;
+            transition: background-color 0.3s ease;
+        }
+        .contact-form button:hover {
+            background-color: #16a085;
+        }
+        footer {
+            text-align: center;
+            padding: 1.5rem 0;
+            background: #2c3e50;
+            color: white;
+            margin-top: 20px;
+            font-size: 0.9rem;
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <h1>SR GRÁFICA</h1>
+        <nav>
+            <ul>
+                <li><a href="#inicio">Início</a></li>
+                <li><a href="#sobre">Sobre Nós</a></li>
+                <li><a href="#contato">Contato</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <div class="container">
+
+        <section id="inicio" class="section">
+            <h2>Impressão de Qualidade para Suas Ideias</h2>
+            <p>A SR GRÁFICA oferece soluções completas em impressão, garantindo a mais alta qualidade para seus projetos pessoais e empresariais. Do cartão de visita à lona, sua ideia ganha vida com a gente.</p>
+            <div class="services-list">
+                <div class="service-item">
+                    <h3>Cartões de Visita</h3>
+                    <p>Crie uma primeira impressão memorável com nossos cartões de alta qualidade.</p>
+                </div>
+                <div class="service-item">
+                    <h3>Banners e Lonas</h3>
+                    <p>Destaque-se em qualquer evento com impressões duráveis e vibrantes.</p>
+                </div>
+                <div class="service-item">
+                    <h3>Materiais de Escritório</h3>
+                    <p>Folders, flyers, blocos de anotação e mais para padronizar sua comunicação.</p>
+                </div>
+            </div>
+        </section>
+
+        <section id="sobre" class="section">
+            <h2>Sobre Nós</h2>
+            <p>Fundada com a paixão por transformar ideias em realidade impressa, a SR GRÁFICA se dedica a oferecer serviços de excelência com agilidade e preços competitivos. Nossa missão é ser o seu parceiro em todos os projetos, grandes ou pequenos, garantindo que o resultado final supere suas expectativas.</p>
+            <p>Investimos em tecnologia de ponta e em uma equipe experiente para assegurar que cada detalhe do seu pedido seja perfeito.</p>
+        </section>
+
+        <section id="contato" class="section">
+            <h2>Entre em Contato</h2>
+            <p>Pronto para começar seu projeto? Fale com a gente! Preencha o formulário abaixo ou utilize nossos canais de contato para solicitar um orçamento.</p>
+            
+            <div class="contact-form">
+                <form action="#" method="post">
+                    <label for="nome">Nome:</label>
+                    <input type="text" id="nome" name="nome" required>
+
+                    <label for="email">Email:</label>
+                    <input type="email" id="email" name="email" required>
+
+                    <label for="assunto">Assunto:</label>
+                    <input type="text" id="assunto" name="assunto" required>
+
+                    <label for="mensagem">Mensagem:</label>
+                    <textarea id="mensagem" name="mensagem" rows="5" required></textarea>
+
+                    <button type="submit">Enviar Mensagem</button>
+                </form>
+            </div>
+        </section>
+
+    </div>
+
+    <footer>
+        <p>&copy; 2025 SR GRÁFICA. Todos os direitos reservados.</p>
+    </footer>
+
+</body>
+</html>
+
+    <section id="contato">
+       <p>Quer entrar em contato com a gente? Nos encontre no 
+        <a href="https://www.linkedin.com/in/matheus-gomes-leit%C3%A3o-6ba786351/" target="_blank">Linkedin</a>
+
+        
+     <section>
+
+        <a href="https://wa.me/5511999999999" target="_blank" class="whatsapp-button">
+    <img src="whatsapp-contato.png" alt="Contato pelo WhatsApp" class="whatsapp-img">
+</a>
+</body>
+</html>
+
